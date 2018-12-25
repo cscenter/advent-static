@@ -17,7 +17,7 @@
     
     <div class="container">
         <h2>Поздравляем победителей!</h2>
-        <p class="cover__text">Спасибо всем за&nbsp;участие! С&nbsp;Наступающим!</p>
+        <p class="cover__text">Спасибо всем за&nbsp;участие! С&nbsp;наступающим!</p>
         <div class="row content-center">
             <div class="leaderboard col-lg-8">
                 <table>
@@ -311,11 +311,7 @@
         </div>
     <% } %>
     <div class="modal-header-text">
-        <% if (parseInt(score) > 0) { %>
-        <small class="text-muted task-num">Сложность задачи: <%- score %></small>
-        <% } %>
         <h3 class="modal-title" id="exampleModalLongTitle"><%- name %></h3>
-        <% if (!hideLink) { %><a href="<%- url %>" class="btn btn--small btn--blue">Решить задачу</a><% } %>
     </div>
 </div>
 <% } %>
